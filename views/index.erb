@@ -1,0 +1,17 @@
+<div style='border: dashed red'>
+  <img src='http://bit.ly/1eze8aE'>
+</div>
+<br>
+<% if @cat_names %>
+<h1>My name <%= @cat_names %></h1>
+<% end %>
+<form action="/named-cat">
+  <input type="text" name="name">
+  <input type="submit" name="Submit">
+</form>
+
+
+
+<h2>
+  My owner is Alex
+</h2>
